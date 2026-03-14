@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+
+h3 {
+  text-align: center;
+  margin-top: 30px;
+  color: #333;
+}
+
+
+ .comments {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.comment {
+  background: white;
+  padding: 15px 18px;
+  border-radius: 8px;
+  /* border-left: 4px solid #4a90e2; */
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+
+.comment:hover {
+  transform: translateY(-3px);
+}
+
+.comment span:first-child {
+  font-weight: 600;
+  color: #222;
+  font-size: 16px;
+}
+
+.comment span:nth-child(3) {
+  color: #555;
+  font-size: 14px;
+}
+
+
+.comment span:last-child {
+  color: #f39c12;
+  font-weight: 600;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 30px;
+}
+
+.formWindow{
+   position: sticky;
+   top: 20px;
+   height: fit-content;
+}
